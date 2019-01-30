@@ -1,0 +1,1 @@
+cv-with-simple-jQuery-s-function

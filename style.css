@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #2F332E;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        margin: 0 auto;
+        border: 1px solid rgba(233, 166, 41, 0.8);
+        background: #FFF;
+    } 
+    
+    .header {
+        color: color: #2F332E;
+        margin-left: 100px; 
+        display: flex;   
+    }
+    
+    .coordonnees {
+        color: #2F332E;
+        line-height: 5px;
+        margin: 0px 0px 50px 100px;
+    }
+    
+    .job {
+       /*background: rgba(233, 166, 41, 0.8);*/
+       /*background: #667882;*/
+       background: #e3e5e6;
+       color: #2F332E;
+       text-transform: uppercase;
+       border-radius: 10px;
+       font-size: 1.4rem;
+       width: 250px;
+       height: 80px;
+       margin: 0 auto;
+       padding: 5px 0 5px 15px;
+    
+    }
+    
+    .accordion {
+        margin-top: 30px;
+    }
+    
+    .ui-accordion-header {
+        background-color: #77ABD6;
+        border: none;
+    }
+    
+    .ui-accordion-header-active {
+        background-color: rgb(64, 149, 219);
+    }
+    
+    .ui-accordion-header-collapsed {
+        color: #2F332E;
+    }
+    
+    .ui-accordion-content-active {
+        /*background-color: rgb(221, 236, 248);*/
+        background: #e3e5e6;
+    }
+    
+    .footer {
+       color: #2F332E;
+       width: 200px;
+       margin: 0 auto;
+    }
+}
+@media screen and (min-width: 451px) {
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgba(233, 166, 41, 0.8);
+    background: #FFF;
+} 
+
+.header {
+    color: color: #2F332E;
+    margin-left: 100px; 
+    display: flex;   
+}
+
+.coordonnees {
+    color: #2F332E;
+    line-height: 5px;
+    margin: 0px 0px 50px 100px;
+}
+
+.job {
+   /*background: rgba(233, 166, 41, 0.8);*/
+   /*background: #667882;*/
+   background: #e3e5e6;
+   color: #2F332E;
+   text-transform: uppercase;
+   border-radius: 10px;
+   font-size: 1.4rem;
+   width: 250px;
+   height: 80px;
+   margin: 0 auto;
+   padding: 5px 0 5px 15px;
+
+}
+
+.accordion {
+    margin-top: 30px;
+}
+
+.ui-accordion-header {
+    background-color: #77ABD6;
+    border: none;
+}
+
+.ui-accordion-header-active {
+    background-color: rgb(64, 149, 219);
+}
+
+.ui-accordion-header-collapsed {
+    color: #2F332E;
+}
+
+.ui-accordion-content-active {
+    /*background-color: rgb(221, 236, 248);*/
+    background: #e3e5e6;
+}
+
+.footer {
+   color: #2F332E;
+   width: 200px;
+   margin: 0 auto;
+}
